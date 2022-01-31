@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "express-jwt": "^6.1.0",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "signup",
+  "version": "1.0.0",
+  "description": "after signup send a email",
+  "main": "server.js",
+  "author": "Abhilekh Sarmah",
+  "license": "ISC"
+}
